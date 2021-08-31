@@ -3,25 +3,24 @@ body {
   margin: 0px;
 }
 .search-section {
-  width: 774px;
+  width: 516px;
   height: 72px;
   background-color: #f2f2f2;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
   padding: 0px;
   display: grid;
-  grid-template-columns: 626px 100px;
+  grid-template-columns: 368px 100px;
   column-gap: 16px;
   margin: 16px;
 }
 .search-bar {
-  width: 626px;
+  width: 368px;
   height: 40px;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
   padding: 0px;
   margin: 16px;
-
 }
 .add-button {
   width: 100px;
@@ -31,71 +30,45 @@ body {
   border: 0px;
   padding: 0px;
   margin:16px;
-
 }
 .usual-section {
-  width: 774px;
-  height: 72px;
+  width: 516px;
+  height: 64px;
   background-color: #ffffff;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
-  display: grid;
-  grid-template-columns: 510px 100px 100px;
-  column-gap: 16px;
+  display: flex;
+  justify-content:flex-start;
   margin: 16px;
+  align-items:center;
 }
 .usual-text {
+  width:355.7px;
   color: #333;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   margin: 16px;
-}
-.done-button {
-  width: 100px;
-  height: 40px;
-  border-radius: 8px;
-  padding: 0px;
-  background-color: #27ae60;
-  border: 0px;
-  margin: 16px;
-}
-.remove-button {
-  width: 100px;
-  height: 40px;
-  border-radius: 8px;
-  padding: 0px;
-  background-color: #eb5757;
-  border: 0px;
-  margin: 16px;
+  margin-left:0px;
 }
 .unusual-section {
-  width: 774px;
-  height: 72px;
+  width: 516px;
+  height: 64px;
   background-color: #f2f2f2;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
-  display: grid;
-  grid-template-columns: 510px 100px 100px;
-  column-gap: 16px;
+  display: flex;
+  justify-content:flex-start;
   margin: 16px;
+  align-items:center;
 }
 .line-through-text {
   color: #333;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   margin: 16px;
+  margin-left:0px;
   text-decoration: line-through;
 }
-.open-button {
-  width: 100px;
-  height: 40px;
-  border-radius: 8px;
-  padding: 0px;
-  background-color: #BDBDBD;
-  border: 0px;
-  margin: 16px;
-}
-
 button {
   color: #ffffff;
   font-size: 16px;
@@ -104,8 +77,25 @@ button {
   margin: 10.5px 20.5px;
   cursor:pointer;
 }
-
-button:hover {
+.checkbox
+{
+width:32px;
+height:32px;
+margin:16px;
+}
+.edit-img{
+  width: 24.3px;
+  height:24.29px;
+  margin:16px;
+  margin-left:0px;
+}
+.delete-img{
+  width: 24px;
+  height:26.67px;
+  margin:16px;
+  margin-left:0px;
+}
+img:hover {
   transform: scale(1.1);
 }
 
